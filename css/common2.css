@@ -156,6 +156,28 @@ h2 { padding-top: 20px; }
   height: auto;
 }
 
+.mobile-app #wrapper { min-height: 100vh; }
+.mobile-app .alfa img {
+  display: block;
+  width: 248px;
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolioIntro {
+  padding: 2px 15px 4px;
+  color: #574d24;
+}
+
+.referenceNote {
+  padding: 5px 15px 20px;
+  color: #574d24;
+}
+
+.referenceNote a { color: #574d24; }
+.referenceNote a:hover,
+.referenceNote a:focus-visible { color: #900; }
+
 .footerNav { margin-right: -2em; }
 .footerNav li { display: inline-block; margin-right: 2em; }
 
