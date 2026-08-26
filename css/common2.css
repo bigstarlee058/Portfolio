@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+html {
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 0;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #333;
+  background: #d9cfa4;
+  font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 75%;
+  line-height: 1.6;
+  text-align: center;
+}
+
+img {
+  border: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  outline: none;
+  overflow: hidden;
+  transition: color 0.25s ease-in;
+}
+
+a:hover,
+a:focus-visible {
+  color: #cac78e;
+}
+
+.s { font-size: 75%; }
+.normal { font-weight: normal; }
+article { display: block; }
+
+h1 {
+  margin: 0;
+  padding-top: 20px;
+  color: #574d24;
+  font-size: 140%;
+}
+
+p { margin: 0; }
+div.center { margin: 0 auto; }
+
+header nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#gnavi {
+  width: 100%;
+  margin: 0 auto;
+  background: #574d24;
+}
+
+#gnavi ul {
+  margin: 0;
+  padding: 1em;
+}
+
+#gnavi li {
+  display: inline;
+  padding-right: 20px;
+  font-size: 16px;
+}
+
+#wrapper {
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.block {
+  width: 250px;
+  padding: 20px 15px;
+  overflow: hidden;
+  background: #fff;
+  text-align: left;
+}
+
+.grid {
+  float: left;
+  margin: 10px 10px 20px;
+}
+
+.border { border: 1px solid #999; }
+h2 { padding-top: 20px; }
+.profile { padding-bottom: 5px; }
+
+.date {
+  width: 250px;
+  padding-top: 3px;
+  padding-bottom: 15px;
+  border-top: 1px dotted #ccc;
+  color: #900;
+  text-align: right;
+}
+
+.concept { clear: both; }
+.arrow { padding-left: 10px; background: url(../img/arrow.gif) no-repeat; }
+.gray { color: #ccc; text-align: center; }
+.txtBox { width: 250px; }
+.accordion_head { cursor: pointer; }
+.att { padding-left: 1em; padding-bottom: 1em; text-indent: -1em; }
+
+.alfa a:hover img,
+.alfa a:focus-visible img {
+  opacity: 0.7;
+}
+
+.alfa img {
+  transition: opacity 0.25s ease-in;
+}
+
+.wbr { word-break: break-all; }
+.txtRed { color: #900; }
+.fl { float: left; }
+
+.cl::after {
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  content: ".";
+}
+
+#footer {
+  padding: 20px 0;
+  background: #574d24;
+  color: #fff;
+}
+
+.dtp .grid { max-width: 290px; }
+.dtp #wrapper { min-height: 100vh; }
+.dtp img { max-width: 100%; height: auto; }
+
+.footerNav { margin-right: -2em; }
+.footerNav li { display: inline-block; margin-right: 2em; }
+
+/* The reference site used a 400px minimum width. These rules preserve its
+   proportions while allowing the same design to fit modern narrow screens. */
+#wrapper > img.grid {
+  max-width: calc(100vw - 20px);
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  h1 { padding: 8px 10px 0; }
+  #wrapper { margin-top: 0; }
+  .grid { margin-bottom: 10px; }
+  .footerNav { margin-right: -1.25em; }
+  .footerNav li { margin-right: 1.25em; }
+}
