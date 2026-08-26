@@ -148,6 +148,14 @@ h2 { padding-top: 20px; }
 .dtp #wrapper { min-height: 100vh; }
 .dtp img { max-width: 100%; height: auto; }
 
+.shopify #wrapper { min-height: 100vh; }
+.shopify .alfa img {
+  display: block;
+  width: 248px;
+  max-width: 100%;
+  height: auto;
+}
+
 .footerNav { margin-right: -2em; }
 .footerNav li { display: inline-block; margin-right: 2em; }
 

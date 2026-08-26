@@ -1,10 +1,11 @@
 # Portfolio Website
 
-A responsive static portfolio website with three pages:
+A responsive static portfolio website with four pages:
 
 - `index.html` — Web portfolio
 - `banner.html` — Banner and image portfolio
 - `dtp.html` — Print/DTP portfolio
+- `shopify.html` — Shopify and ecommerce portfolio
 
 ## Requirements
 
@@ -30,6 +31,7 @@ Other pages:
 ```text
 http://localhost:4173/banner.html
 http://localhost:4173/dtp.html
+http://localhost:4173/shopify.html
 ```
 
 Stop the server by pressing `Ctrl+C` in PowerShell.
@@ -49,6 +51,7 @@ portfolio/
 ├── index.html
 ├── banner.html
 ├── dtp.html
+├── shopify.html
 ├── css/
 ├── js/
 └── img/
